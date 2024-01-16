@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap');
+
+@font-face {
+    font-family: 'Heavy Rain';
+    src: url(./assets/fonts/HeavyRainText_PERSONAL_USE_ONLY.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Hero */
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/images/salon.jpg) no-repeat center center/cover;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    border: 2px white #fafafa10;
+    width: 45rem;
+    height: 30rem;
+    margin: 0  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+.title{
+    color:#34403C;
+    font-size: 3rem;
+    font-family: 'Heavy Rain', cursive;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+/* Navbar */
+
+.navbar {    
+    box-shadow: 0 1px 8px #0e0d0d;    
+    padding: 0.1px;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3e492ad3;  
+}
+.navbar ul {
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar ul li {    
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 247, 247);
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 0 1rem;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Menu */
+.menu {
+    background-color: #3E492A;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-image {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* que no se salga de la caja */
+}
+
+.menu-image img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.menu-card {
+    max-width: 600px;
+    margin: 0 50px 0 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+  
+}
+
+h2 {
+    color:#98502A;
+    font-size: 100px;
+}
+
+.carta {
+    background-image: linear-gradient( #3e492ab8, #3e492a5e), url('./assets/images/cafe.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.coffee-menu {
+    list-style: none; 
+    padding: 0;   
+}
+.coffee-menu h3{
+    font-size: 45px;    
+}
+.coffee-menu li {
+    margin-bottom: 20px;    
+}
+.coffee-menu li p {
+    color: #faf2f2;
+    font-size: 25px;    
+}
+ 
+/* Dog */
+
+.container-dog {
+    background-color: #291D12;
+    width: 100%;
+    margin: solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    padding: 20px 10px;
+}
+
+.image-dog {
+    overflow: hidden;
+}
+
+.pet,
+.friendly {
+    color: #98502A;
+    font-size: 90px;
+    overflow: hidden;
+}
+
+.pet h3,
+.friendly h3 {
+    margin: 0;
+}
+
+/* carta dog */
+.h2-dog h2{    
+    color:#38d4a596;
+    font-size: 100px;
+    
+}
+.carta-dog {
+    background-image: linear-gradient( #0c1012b8, #0c0e0988), url('./assets/images/perro\ 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.dog-menu {    
+    padding: 0;   
+}
+.doggi-menu h3{
+    font-size: 45px;    
+}
+.doggi-menu li {
+    margin-bottom: 20px;    
+}
+.doggi-menu li p {
+    color: #faf2f2;
+    font-size: 25px;    
+}
+/* Footer */
+.footer {
+    background: #383A37;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    color: rgba(252, 248, 248, 0.3);
+}
+
+.footer p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer i {
+    color: #98502A;
+    font-size: 20px;
+    margin-left: 5px;
+}
