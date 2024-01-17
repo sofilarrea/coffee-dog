@@ -4,6 +4,15 @@
     font-family: 'Heavy Rain';
     src: url(./assets/fonts/HeavyRainText_PERSONAL_USE_ONLY.ttf);
 }
+:root{
+    --color-menu: #98502A;
+    --color-menu-dog: #38d4a596;
+    --background-color-navbar:  #3e492ad3;
+    --background-color: #3E492A;
+    --background-color-dog:  #291D12;
+    --font-size-menu-h2: 100px;
+    --font-size-menu-h3: 45px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -82,7 +91,7 @@
 
 /* Menu */
 .menu {
-    background-color: #3E492A;
+    background-color:var(--background-color);
     width: 100%;
     height: 100vh;
     padding: 20px;
@@ -116,13 +125,13 @@
 
 h2 {
     color:#98502A;
-    font-size: 100px;
+    font-size: var(--font-size-menu-h2);
 }
 
 .carta {
     background-image: linear-gradient( #3e492ab8, #3e492a5e), url('./assets/images/cafe.jpg');
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center ; 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -135,7 +144,7 @@ h2 {
     padding: 0;   
 }
 .coffee-menu h3{
-    font-size: 45px;    
+    font-size: var(--font-size-menu-h3);    
 }
 .coffee-menu li {
     margin-bottom: 20px;    
@@ -148,7 +157,7 @@ h2 {
 /* Dog */
 
 .container-dog {
-    background-color: #291D12;
+    background-color:var(--background-color-dog);
     width: 100%;
     margin: solid black;
     display: flex;
@@ -178,8 +187,8 @@ h2 {
 
 /* carta dog */
 .h2-dog h2{    
-    color:#38d4a596;
-    font-size: 100px;
+    color:var(--color-menu-dog);
+    font-size: var(--font-size-menu-h2);
     
 }
 .carta-dog {
@@ -196,7 +205,7 @@ h2 {
     padding: 0;   
 }
 .doggi-menu h3{
-    font-size: 45px;    
+    font-size:var(--font-size-menu-h3);    
 }
 .doggi-menu li {
     margin-bottom: 20px;    
