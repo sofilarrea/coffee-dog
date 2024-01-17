@@ -210,17 +210,21 @@ h2 {
     background-size: cover;
 }
 .dog-menu {    
-    padding: 0;   
+    list-style: none; 
+    padding: 0;     
 }
-.doggi-menu h3{
-    font-size:var(--font-size-menu-h3);    
+.dog-menu ul{
+    list-style-type: none;
 }
-.doggi-menu li {
+.dog-menu h3{
+    font-size: var(--font-size-menu-h3);  
+}
+.dog-menu li {
     margin-bottom: 20px;    
 }
-.doggi-menu li p {
-    color:var(--color-menu-li-p);
-    font-size: var(--font-size-menu-p);    
+.dog-menu li p {
+    color: var(--color-menu-li-p);
+    font-size:var(--font-size-menu-p);     
 }
 /* Footer */
 .footer {
