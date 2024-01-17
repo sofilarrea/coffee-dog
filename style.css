@@ -12,6 +12,11 @@
     --background-color-dog:  #291D12;
     --font-size-menu-h2: 100px;
     --font-size-menu-h3: 45px;
+    --font-size-menu-p: 25px;
+    --color-menu-li-p:  #faf2f2;
+    --glass-effect: #fafafa10;
+    
+
 }
 *{
     margin: 0;
@@ -88,7 +93,10 @@
     transition: all 0.3s ease;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
-
+.navbar ul li a:hover {
+    color: #98502A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
 /* Menu */
 .menu {
     background-color:var(--background-color);
@@ -150,8 +158,8 @@ h2 {
     margin-bottom: 20px;    
 }
 .coffee-menu li p {
-    color: #faf2f2;
-    font-size: 25px;    
+    color: var(--color-menu-li-p);
+    font-size:var(--font-size-menu-p);    
 }
  
 /* Dog */
@@ -211,8 +219,8 @@ h2 {
     margin-bottom: 20px;    
 }
 .doggi-menu li p {
-    color: #faf2f2;
-    font-size: 25px;    
+    color:var(--color-menu-li-p);
+    font-size: var(--font-size-menu-p);    
 }
 /* Footer */
 .footer {
@@ -230,7 +238,7 @@ h2 {
 }
 
 .footer i {
-    color: #98502A;
+    color:var(--color-menu);
     font-size: 20px;
     margin-left: 5px;
 }
