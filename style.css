@@ -209,6 +209,9 @@ h2 {
     align-items: center;
     background-size: cover;
 }
+.carta-dog:hover{
+    cursor: url(./assets/images/icons8-dog-50.png), auto;
+}
 .dog-menu {    
     list-style: none; 
     padding: 0;     
